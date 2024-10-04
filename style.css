@@ -1,0 +1,75 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+@media screen and (max-width: 768px) {
+p{
+        font-size: 12px;
+        text-align: start;
+    }
+    h1{
+        font-size: 20px;
+    }
+    li{
+        font-size: 10px;
+    }    
+    form{
+        width: 80%;
+        font-size: 10px;
+    }
+}
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa; /* Light background for better contrast */
+    color: #343a40; /* Dark color for text */
+}
+
+.header {
+    background-color: #007bff; /* Bootstrap primary color */
+    color: white;
+}
+
+.navbar {
+    padding: 1rem; /* Extra padding for the navbar */
+}
+
+h2, h5 {
+    color: #007bff; /* Use primary color for headings */
+}
+
+.card {
+    border: none; /* Remove card borders */
+    border-radius: 10px; /* Round edges */
+    overflow: hidden; /* Ensure the image fits well */
+    transition: transform 0.2s; /* Animate hover effect */
+}
+
+.card:hover {
+    transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+.card-body {
+    text-align: center; /* Center text in card body */
+}
+
+.footer {
+    padding: 2rem 0; /* Padding for footer */
+    text-align: left; /* Align text to the left */
+}
+
+.footer a {
+    text-decoration: none; /* Remove underline from links */
+}
+
+.footer a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+/* Button styles */
+.btn {
+    width: 100%; /* Full width buttons */
+    margin-bottom: 10px; /* Space between buttons */
+    border-radius: 20px; /* Round edges */
+}
