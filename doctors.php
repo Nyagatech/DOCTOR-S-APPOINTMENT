@@ -21,7 +21,7 @@ include 'db.php'; // Include the database connection file
                     <div class="row">
                         <?php
                         // Fetch doctors from the database
-                        $sql = "SELECT * FROM doctors"; // Adjust based on the specialties if needed
+                        $sql = "SELECT * FROM doctors";
                         $result = $conn->query($sql);
 
                         if ($result->num_rows > 0) {
