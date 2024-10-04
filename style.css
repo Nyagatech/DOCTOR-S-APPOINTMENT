@@ -47,29 +47,29 @@ h2, h5 {
 }
 
 .card:hover {
-    transform: scale(1.05); /* Slightly enlarge on hover */
+    transform: scale(1.05); 
 }
 
 .card-body {
-    text-align: center; /* Center text in card body */
+    text-align: center; 
 }
 
 .footer {
-    padding: 2rem 0; /* Padding for footer */
-    text-align: left; /* Align text to the left */
+    padding: 2rem 0; 
+    text-align: left; 
 }
 
 .footer a {
-    text-decoration: none; /* Remove underline from links */
+    text-decoration: none; 
 }
 
 .footer a:hover {
-    text-decoration: underline; /* Underline on hover */
+    text-decoration: underline; 
 }
 
 /* Button styles */
 .btn {
-    width: 100%; /* Full width buttons */
-    margin-bottom: 10px; /* Space between buttons */
-    border-radius: 20px; /* Round edges */
+    width: 100%; 
+    margin-bottom: 10px;
+    border-radius: 20px; 
 }
